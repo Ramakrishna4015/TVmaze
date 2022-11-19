@@ -1,13 +1,12 @@
-import Header from './Components/Header';
-import Search from './Components/Search';
+
+import './App.css';
+import Search from './componants/Search'
+
 function App() {
   return (
-    <>
-    <div className="bg-dark vh-100">
-      <Header />
+    <div>
       <Search />
     </div>
-    </>
   );
 }
 
